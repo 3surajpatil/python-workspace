@@ -24,3 +24,9 @@ python wsgi.py
 pip list
 # to check if flask_cors is installed in current python interpreter.
 pip show flask_cors
+
+
+# in vs code if vs code not able to detect intrepreter libraries, change interpreter by ctrl+shift+p
+and copy venv folder path and search for interpreter and paste.
+
+uvicorn main:app --host 0.0.0.0 --port 80
